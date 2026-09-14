@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div id="introScene">
+        <div id="introMessage" class="intro">Need to ask you something...</div>
+        <div class="gif-wrap">
+          <img src="./gifs/tokito-yippee_intro.gif" alt="Intro reaction" />
+        </div>
+        <div class="buttons">
+          <button id="introYesBtn" class="btn yes-btn" type="button">Yes 💖</button>
+        </div>
+      </div>
+
+      <div id="mainScene" class="hidden">
+        <div class="gif-wrap">
+          <img id="mainGif" src="./gifs/tokito-yippee_intro.gif" alt="Valentine reaction" />
+          <div id="yesGallery" class="yes-gallery" aria-live="polite"></div>
+        </div>
+
+        <div id="questionText" class="message">Will you be my Valentine?</div>
+
+        <div class="buttons">
+          <button id="yesBtn" class="btn yes-btn" type="button">Yes 💖</button>
+          <button id="noBtn" class="btn no-btn" type="button">No 😭</button>
+        </div>
+
+        <div id="funnyNote" class="funny-note">I promise this is completely serious business.</div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
